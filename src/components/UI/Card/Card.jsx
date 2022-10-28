@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./styleCard.scss";
 import Main from "../../Main";
 
@@ -6,7 +7,7 @@ const Card = ({item:{name,region,population,capital,flags},i}) => {
     // console.log(item);
   return (
     <>
-      <div className="card mb-5">
+      <Link to={`/${name}`} className="card mb-5">
         <img
           src={flags.png}
           className="card-img-top border border-md"
@@ -32,7 +33,7 @@ const Card = ({item:{name,region,population,capital,flags},i}) => {
             Button
           </a>
         </div> */}
-      </div>
+      </Link>
     </>
   );
 };
