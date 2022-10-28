@@ -1,0 +1,16 @@
+1)npm create vite@latest  bunda yangi versiyadagi react ni ornatamiz(vue vite react hamkorligida)
+
+2) proekt nomini soraydi
+
+3) qaysi tilda yozishimizni soraydi bi reactni soraymiz
+
+4)javasscript yoki type script dan bittasini tanlaymiz
+
+5) proektni ishga tushurish uchun
+
+#) cd (faylimizni nomi) orqali faylga kirib olamiz
+
+#)np install orqlali npm ni ornatib olamiz
+
+#) run dev orqali reactni ishga tushurib yuboramiz
+
